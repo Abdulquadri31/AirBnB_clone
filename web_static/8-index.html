@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results - Places</title>
+    <link rel="icon" href="images/icon.png" type="image/png">
+    <link rel="stylesheet" href="styles/4-common.css">
+    <link rel="stylesheet" href="styles/3-header.css">
+    <link rel="stylesheet" href="styles/3-footer.css">
+    <link rel="stylesheet" href="styles/6-filters.css">
+    <link rel="stylesheet" href="styles/8-places.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo"></div>
+    </header>
+
+    <div class="container">
+        <!-- Filter Section -->
+        <section class="filters">
+            <h3>Filters</h3>
+            <select id="filter-dropdown" name="filter">
+                <option value="all">All Places</option>
+                <option value="state1">State 1</option>
+                <option value="state2">State 2</option>
+                <option value="state3">State 3</option>
+            </select>
+            <button>Search</button>
+        </section>
+
+        <!-- Places Section -->
+        <section class="places">
+            <h1>Places</h1>
+            <div class="place-list">
+                <article class="place">
+                    <h2>Place 1</h2>
+                    <div class="price_by_night">$150</div>
+                    <div class="information">
+                        <div class="max_guest">Guests: 4</div>
+                        <div class="number_rooms">Bedrooms: 2</div>
+                        <div class="number_bathrooms">Bathrooms: 1</div>
+                    </div>
+                    <div class="user">
+                        <strong>Owner:</strong> John Doe
+                    </div>
+                    <div class="description">
+                        Cozy 2-bedroom apartment located in the heart of the city with modern amenities and a great view of the skyline.
+                    </div>
+                </article>
+
+                <article class="place">
+                    <h2>Place 2</h2>
+                    <div class="price_by_night">$250</div>
+                    <div class="information">
+                        <div class="max_guest">Guests: 6</div>
+                        <div class="number_rooms">Bedrooms: 3</div>
+                        <div class="number_bathrooms">Bathrooms: 2</div>
+                    </div>
+                    <div class="user">
+                        <strong>Owner:</strong> Jane Smith
+                    </div>
+                    <div class="description">
+                        Spacious 3-bedroom villa with a private pool and garden, ideal for families or groups looking to relax.
+                    </div>
+                </article>
+
+                <article class="place">
+                    <h2>Place 3</h2>
+                    <div class="price_by_night">$100</div>
+                    <div class="information">
+                        <div class="max_guest">Guests: 2</div>
+                        <div class="number_rooms">Bedrooms: 1</div>
+                        <div class="number_bathrooms">Bathrooms: 1</div>
+                    </div>
+                    <div class="user">
+                        <strong>Owner:</strong> Michael Lee
+                    </div>
+                    <div class="description">
+                        A charming studio apartment perfect for solo travelers or couples. Located near the beach and popular attractions.
+                    </div>
+                </article>
+            </div>
+        </section>
+    </div>
+
+    <footer>Best School</footer>
+
+</body>
+</html>

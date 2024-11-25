@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Travel Page with Accessibility</title>
+  <link rel="stylesheet" href="styles/103-common.css">
+  <link rel="stylesheet" href="styles/103-header.css">
+  <link rel="stylesheet" href="styles/103-footer.css">
+  <link rel="stylesheet" href="styles/103-filters.css">
+  <link rel="stylesheet" href="styles/103-places.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header role="banner">
+    <h1>Responsive Travel Page</h1>
+    <nav aria-label="Main Navigation">
+      <a href="#" aria-label="Home">Home</a>
+      <a href="#" aria-label="Places">Places</a>
+      <a href="#" aria-label="Contact">Contact</a>
+    </nav>
+    <div class="search-box">
+      <label for="search-input" class="sr-only">Search places</label>
+      <input type="text" id="search-input" placeholder="Search places..." aria-labelledby="search-input">
+      <button aria-label="Search">Search</button>
+    </div>
+  </header>
+
+  <!-- Filters Section -->
+  <section class="filters" aria-labelledby="filters-section">
+    <h2 id="filters-section">Filters</h2>
+    <div class="filters-container">
+      <label for="location" class="sr-only">Location</label>
+      <select id="location" class="filter-dropdown" aria-label="Location">
+        <option>Location 1</option>
+        <option>Location 2</option>
+      </select>
+      <label for="amenities" class="sr-only">Amenities</label>
+      <select id="amenities" class="filter-dropdown" aria-label="Amenities">
+        <option>Wi-Fi</option>
+        <option>Parking</option>
+      </select>
+      <button aria-label="Apply Filters">Apply Filters</button>
+    </div>
+  </section>
+
+  <!-- Places Section -->
+  <section class="places">
+    <h1 id="places-header">Places</h1>
+    <article aria-labelledby="place1">
+      <h2 id="place1">Place 1</h2>
+      <p>Details about Place 1</p>
+    </article>
+    <article aria-labelledby="place2">
+      <h2 id="place2">Place 2</h2>
+      <p>Details about Place 2</p>
+    </article>
+  </section>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <p>&copy; 2024 Responsive Travel Page</p>
+  </footer>
+
+</body>
+</html>

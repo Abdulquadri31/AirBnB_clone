@@ -1,0 +1,73 @@
+/* Header styles */
+header {
+    background-color: #FF0000;
+    color: white;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    background-color: #FFFFFF;
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+/* Header Styles */
+header {
+  background-color: #FF5A5F;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 24px;
+  color: white;
+}
+
+/* Navigation bar inside the header */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  font-size: 18px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+header .search-box {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+header .search-box input[type="text"] {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+header .search-box button {
+  background-color: #e54c50;
+  border: none;
+  padding: 6px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+header .search-box button:hover {
+  background-color: #FF5A5F;
+}
